@@ -10,6 +10,11 @@
 # Note: Earlier this year I've made a version that connects to AWS, this is possible
 # as well, but for this PoC I've opted to keep it in my local network.
 # The MQTT Broker is in a RaspberryPi running Mosquitto.
+#
+# Credits:
+# This learning process was enabled by the MicroPython community, Thank you guys! https://forum.micropython.org/
+# Lib of simple MQTT is made by MicroPython maintainers and
+# can be found right here: https://github.com/micropython/micropython-lib/tree/master/micropython/umqtt.simple
 
 from machine import Pin as pin
 import network
